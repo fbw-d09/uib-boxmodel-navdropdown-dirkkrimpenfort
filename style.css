@@ -1,0 +1,63 @@
+ul a
+{
+    display: inline;
+    margin: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:darkgrey;
+    text-decoration: none;
+}
+
+ul p
+{
+    color:firebrick;
+    display:inline;
+}
+
+#strich1
+{
+    position: absolute;
+    top: -5px;
+    left: 50px;
+    font-size: 20px;
+ }
+
+
+#strich2
+{
+    position: absolute;
+    top: -5px;
+    left: 155px;
+    font-size: 20px;
+ }
+
+ #strich3
+{
+    position: absolute;
+    top: -5px;
+    left: 273px;
+    font-size: 20px;
+ }
+
+ #strich4
+{
+    position: absolute;
+    top: -5px;
+    left: 380px;
+    font-size: 20px;
+ }
+
+ .subnav ul li 
+ {
+    list-style: none;
+    position:relative;
+    left: 110px;
+
+ }
+
+
+
+
+
+
+
