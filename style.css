@@ -1,8 +1,13 @@
-ul a
+ul li 
 {
     display: inline;
     margin: 20px;
     font-size: 20px;
+    
+}
+
+li a
+{
     font-family: Arial, Helvetica, sans-serif;
     color:darkgrey;
     text-decoration: none;
@@ -47,17 +52,33 @@ ul p
     font-size: 20px;
  }
 
- .subnav ul li 
+ /* .dropdown ul li 
  {
     list-style: none;
     position:relative;
     left: 110px;
 
+ } */
+ .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color:#f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
  }
 
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
 
 
 
+ul li:nth-child(2)
+{
+    color:blue
+}
 
 
 
